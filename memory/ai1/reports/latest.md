@@ -5,7 +5,7 @@ Role: Structural Optimization Company
 
 Central Strategy:
 Level: 4
-Progress: 1
+Progress: 2
 
 Goal:
 Initiate hierarchical nation structure.
