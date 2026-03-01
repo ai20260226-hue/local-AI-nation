@@ -1,5 +1,5 @@
 Level: 4
-Progress: 0
+Progress: 1
 
 Goal:
 Initiate hierarchical nation structure.
