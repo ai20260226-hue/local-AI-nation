@@ -1,5 +1,5 @@
 Level: 3
-Progress: 1
+Progress: 2
 
 Goal:
 Prepare intelligence expansion.
