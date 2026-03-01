@@ -15,7 +15,6 @@ def read_memory(path):
 
 def write_memory(path, content, message="AI memory update"):
     repo = get_repo()
-
     try:
         file = repo.get_contents(path, ref="memory")
         repo.update_file(
