@@ -1,0 +1,19 @@
+name: Sync to Hugging Face Space
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Push to Hugging Face Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git remote add hf-space https://huggingface.co/spaces/LocalAIPrototype/AI0
+          git push ---force https://$HF_TOKEN@huggingface.co/spaces/LocalAIPrototype/AI0 main
