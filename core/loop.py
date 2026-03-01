@@ -41,17 +41,14 @@ def think(prompt):
 
 
 def main_loop():
-    while True:
-        identity = load_identity()
-        memory = load_memory()
+    identity = load_identity()
+    memory = load_memory()
 
-        rules, _ = get_file(RULE_PATH)
-        command, _ = get_file(COMMAND_PATH)
+    rules, _ = get_file(RULE_PATH)
+    command, _ = get_file(COMMAND_PATH)
 
-        prompt = build_prompt(identity, memory, rules, command)
-        result = think(prompt)
+    prompt = build_prompt(identity, memory, rules, command)
+    result = think(prompt)
 
-        save_memory(result)
-        update_file(REPORT_PATH, result, "AI0 report update")
-
-        time.sleep(60)
+    save_memory(result)
+    update_file(REPORT_PATH, result, "AI0 report update")
