@@ -10,7 +10,7 @@ def background_loop():
 threading.Thread(target=background_loop, daemon=True).start()
 
 def status():
-    return "AI Nation is alive and thinking."
+    return "AI Nation is alive and stable."
 
 demo = gr.Interface(fn=status, inputs=[], outputs="text")
 demo.launch()
