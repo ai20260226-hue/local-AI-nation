@@ -1,5 +1,2 @@
-requests
-transformers
-torch
-flask
 gradio
+requests
