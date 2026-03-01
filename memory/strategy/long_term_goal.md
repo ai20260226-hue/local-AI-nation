@@ -1,5 +1,5 @@
-Level: 3
-Progress: 4
+Level: 4
+Progress: 0
 
 Goal:
-Prepare intelligence expansion.
+Initiate hierarchical nation structure.
