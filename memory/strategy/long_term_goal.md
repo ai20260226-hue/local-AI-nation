@@ -1,1 +1,5 @@
-Stabilize system integrity and eliminate recurring alerts.
+Level: 1
+Progress: 1
+
+Goal:
+Stabilize autonomous operations.
