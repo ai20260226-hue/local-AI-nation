@@ -1,5 +1,5 @@
 Level: 2
-Progress: 0
+Progress: 1
 
 Goal:
 Optimize memory and structural systems.
