@@ -1,6 +1,10 @@
-FROM python:3.10-slim
-RUN apt-get update && apt-get install -y git
-RUN pip install requests GitPython
+FROM python:3.10
+
 WORKDIR /app
-# 起動時にGitHubから最新コードを取得して実行する
-CMD git clone https://github.com/ai20260226-hue/local-AI-nation.git . && python main.py
+
+COPY . /app
+
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+CMD ["python", "app.py"]
