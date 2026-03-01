@@ -1,0 +1,6 @@
+{
+  "role": "zaibatsu",
+  "superior": null,
+  "subordinates": ["company_01", "company_02"],
+  "mission": "ユーザーの利益最大化"
+}
