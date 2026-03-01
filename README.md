@@ -1,11 +1,14 @@
-# local-AI-nation
+---
+title: local-AI-nation
+emoji: 🤖
+colorFrom: gray
+colorTo: blue
+sdk: docker
+app_file: app.py
+app_port: 7860
+pinned: false
+---
 
-This repository is a Hugging Face Space using Docker.
+This Space uses Docker to run a custom Python app.
 
-It contains:
-- Dockerfile
-- app.py
-- requirements.txt
-- core/ ...
-- rules/ ...
-- nation/ ...
+See code in the repository.
