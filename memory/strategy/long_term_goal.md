@@ -1,5 +1,4 @@
-Level: 4
-Progress: 1
-
+Level: 1
+Risk: LOW
 Goal:
-Initiate hierarchical nation structure.
+Stabilize system
